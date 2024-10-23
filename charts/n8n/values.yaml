@@ -116,6 +116,9 @@ extraEnvSecrets: {}
 #     name: postgres-user-auth
 #     key: password
 
+extraVolumes: []
+extraVolumeMounts: []
+
 ## Common Kubernetes Config Settings
 persistence:
   ## If true, use a Persistent Volume Claim, If false, use emptyDir
